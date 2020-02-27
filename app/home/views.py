@@ -11,7 +11,7 @@ def homepage():
     """
     Render the homepage template on the / route
     """
-    return render_template('home/index.html', title="Welcome", vuln_var=request.args.get('vuln_var'))
+    return render_template( 'home/index.html', title="Welcome", vuln_var=request.args.get('vuln_var'))
 
 
 
