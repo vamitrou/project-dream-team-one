@@ -14,6 +14,7 @@ def homepage():
     return render_template('home/index.html', title="Welcome", vuln_var=request.args.get('vuln_var'))
 
 
+
 @home.route('/dashboard')
 @login_required
 def dashboard():
